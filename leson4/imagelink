@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.lipsum.com/" target="_blank"><img src="images/laptop.png" alt="laptop"></a>
+    <a href="mailto:info@shkolladigjitale.com">send email</a>
+    <a href="tel:+383 1234567">+383 1234567</a>
+    <img src="images/laptop.png" alt="laptop" width="200" height="200" usemap="#laptopmap">
+    <map name="laptopmap">
+        <area shape="rect" coords="0,0,100,100" href="https://www.lipsum.com/" alt="lipsum">
+        <area shape="rect" coords="100,0,200,100" href="images/laptop.png" alt="laptop image">
+    </map>
+
+</body>
+</html>
